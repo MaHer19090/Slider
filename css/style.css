@@ -1,0 +1,45 @@
+img{
+cursor: pointer;
+}
+.text{
+    position: absolute;
+    bottom: 20px;
+    /* left:10%; */
+    width: 80%;
+}
+.item{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.lightbox{
+    width:100%;
+    height:100%;
+    background-color:rgba(0, 0, 0, .5);
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxdata{
+    position: absolute;
+    width:50%;
+    height:80vh;
+    background-image: url(../IMG/portfolio-3.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.lightbox i {
+    padding: 5px;
+    font-size: xx-large;
+    cursor: pointer;
+}
+#close{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
